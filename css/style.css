@@ -143,12 +143,6 @@ h6 {
   overflow: hidden;
 }
 
-@supports (overflow: clip) {
-  .wrapper {
-    overflow: clip;
-  }
-}
-
 .wrapper > main {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
